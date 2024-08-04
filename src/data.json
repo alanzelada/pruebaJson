@@ -1,0 +1,86 @@
+[
+{
+    "bandeja": 10,
+    "fila": 5,
+    "lote": 8404,
+    "status": true,
+    "resultados": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false
+    ],
+    "causa_rechazo": [
+        [],
+        [
+            "C1 - Desprendimiento",
+            "C4 - Encaping"
+        ],
+        [
+            "C4 - Encaping"
+        ],
+        [
+            "C4 - Encaping"
+        ],
+        [
+            "C4 - Encaping"
+        ],
+        [],
+        [
+            "C4 - Encaping"
+        ],
+        [
+            "C4 - Encaping"
+        ],
+        [
+            "C4 - Encaping"
+        ],
+        [
+            "C4 - Encaping"
+        ],
+        [],
+        [
+            "C4 - Encaping"
+        ],
+        [],
+        [
+            "C4 - Encaping"
+        ],
+        [
+            "C4 - Encaping"
+        ],
+        [],
+        [
+            "C4 - Encaping"
+        ],
+        [],
+        [
+            "C4 - Encaping"
+        ],
+        [
+            "C4 - Encaping"
+        ],
+        [
+            "C4 - Encaping"
+        ]
+    ],
+    "ruta_images": "C:/Users/Usuario/Desktop/Proyecto/imagenes/"
+}
+]
