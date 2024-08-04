@@ -1,0 +1,41 @@
+.homeContainer{
+    background-color: #08223B;
+    width: 100%;
+    position: fixed;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header img{
+    width: 500px;
+}
+
+.tabs{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.tabStyle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 18px;
+    border: 2px solid white;
+    width: 150px;
+}
+
+.tabStyle p{
+    font-size: 24px;
+    color: #FFF;
+    margin: auto;
+}
+
