@@ -1,0 +1,16 @@
+.pastillasGroup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content; 
+    padding: 18px;
+    border: 3px solid #08223B;
+    border-radius: 2px;
+    background-color: #F6F6F6;
+}
+
+.pastillasGroup .pastillas{
+    width: 3.5em;
+    height: 10em;
+}
