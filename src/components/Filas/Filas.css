@@ -1,6 +1,6 @@
 .pastillasGroup{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: max-content; 
@@ -14,3 +14,35 @@
     width: 3.5em;
     height: 10em;
 }
+
+.bordeRojo {
+    border: 3px solid #E04141; 
+  }
+
+.bordeVerde{
+    border: 3px solid #0E8553; 
+  }
+
+  .stats{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    position: absolute;
+    bottom: 10vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .statsBandeja{
+    width: 500px;
+    height: 300px;
+    background-color: #08223B;
+  }
+
+  .statsLote{
+    width: 500px;
+    height: 300px;
+    background-color: #08223B;
+  }
