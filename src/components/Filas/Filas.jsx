@@ -1,16 +1,13 @@
+// src/components/Filas/Filas.jsx
 import React from 'react';
 import '../Filas/Filas.css';
-import data from '../../data.json';
-
-const requireContext = require.context('../../assets/pastillas', false, /\.(png|jpe?g|svg|bmp)$/);
-const images = requireContext.keys().map(requireContext);
+import getPastillasData from '../../hooks/usePastillasData';
 
 const Filas = () => {
-  const resultados = data[0]?.resultados;
+  const { images, resultados, error } = getPastillasData();
 
-  if (!Array.isArray(resultados)) {
-    console.error('resultados no está definido o no es un array');
-    return <div>Error al cargar los resultados</div>;
+  if (error) {
+    return <div>{error}</div>;
   }
 
   return (

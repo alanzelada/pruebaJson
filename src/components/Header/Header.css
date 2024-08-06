@@ -2,6 +2,7 @@
     background-color: #08223B;
     width: 100%;
     position: fixed;
+    z-index: 3;
 }
 
 header{

@@ -1,0 +1,42 @@
+.pastillasContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 25vh;
+    justify-content: space-around;
+}
+
+.pastillasRojas{
+    font-family: "Inter", sans-serif;
+    color: #08223B;
+}
+
+.pastillasVerdes{
+    font-family: "Inter", sans-serif;
+    color: #08223B;
+}
+
+.pastillas{
+    width: 3.5em;
+    height: 10em;
+}
+
+.detallePastilla{
+    width: 350px;
+    padding: 20px;
+    padding-left: 20px;
+    background-color: white;
+    border: 3px solid #08223B;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.detalles{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
