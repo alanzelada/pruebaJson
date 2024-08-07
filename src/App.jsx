@@ -5,6 +5,7 @@ import Body from './components/Body/Body.jsx'
 import Info from './components/Info/Info.jsx'
 import Filas from './components/Filas/Filas.jsx'
 import Pastillas from './components/Pastillas/Pastillas.jsx';
+import Mapa from './components/Mapa/Mapa.jsx'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Header/>
       <Info/>
       {/* <Filas/> */}
-      <Pastillas/>
+      {/* <Pastillas/> */}
+      <Mapa/>
       <Body/>
     </div>
   );

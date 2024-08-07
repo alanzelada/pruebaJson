@@ -1,0 +1,23 @@
+.mapaContainer {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    padding-top: 50vh;
+    z-index: 2;
+    position: absolute;
+  }
+
+  .cuadrado {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+  }
+  
+  .verde {
+    background-color: #0E8553;
+  }
+  
+  .rojo {
+    background-color: #E04141;
+  }
+  
