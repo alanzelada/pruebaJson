@@ -32,6 +32,7 @@ header img{
     gap: 18px;
     border: 2px solid white;
     width: 150px;
+    cursor: pointer;
 }
 
 .tabStyle p{
@@ -39,4 +40,21 @@ header img{
     color: #FFF;
     margin: auto;
 }
+
+.tabStyle.activeTab {
+    background-color: #FFF;
+  }
+
+  .tabStyle.activeTab p{
+    color: #08223B;
+}
+
+.tabStyle.activeTab svg line,
+.tabStyle.activeTab svg path {
+  stroke: #08223B;
+  fill: #08223B; /* Cambia el color del path del svg */
+}
+
+
+
 

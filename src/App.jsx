@@ -1,23 +1,22 @@
-import React from 'react'
+// src/App.js
+import React, { useState } from 'react';
+import Header from './components/Header/Header';
+import Filas from './components/Filas/Filas';
+import Pastillas from './components/Pastillas/Pastillas';
+import Mapa from './components/Mapa/Mapa';
 import './App.css';
-import Header from './components/Header/Header.jsx'
-import Body from './components/Body/Body.jsx'
-import Info from './components/Info/Info.jsx'
-import Filas from './components/Filas/Filas.jsx'
-import Pastillas from './components/Pastillas/Pastillas.jsx';
-import Mapa from './components/Mapa/Mapa.jsx'
 
-function App() {
+const App = () => {
+  const [activeTab, setActiveTab] = useState('Filas');
+
   return (
     <div className="App">
-      <Header/>
-      <Info/>
-      {/* <Filas/> */}
-      {/* <Pastillas/> */}
-      <Mapa/>
-      <Body/>
+      <Header activeTab={activeTab} setActiveTab={setActiveTab} />
+      {activeTab === 'Filas' && <Filas />}
+      {activeTab === 'Pastillas' && <Pastillas />}
+      {activeTab === 'Mapa' && <Mapa />}
     </div>
   );
-}
+};
 
 export default App;
