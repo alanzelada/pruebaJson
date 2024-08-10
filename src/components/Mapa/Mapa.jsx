@@ -19,7 +19,7 @@ const Mapa = () => {
         ></div>
       ))}
     </div>
+    
   );
 };
-
 export default Mapa;

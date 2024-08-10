@@ -1,8 +1,12 @@
+.filasContainer{
+  width: 80%;
+  padding-top: 15vh;
+  width: max-content;
+  margin: auto;
+}
+
+
 .pastillasGroup{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: max-content; 
     padding: 18px;
     border: 3px solid #08223B;
@@ -13,6 +17,7 @@
 .pastillasGroup .pastillas{
     width: 3.5em;
     height: 10em;
+    box-sizing: border-box;
 }
 
 .bordeRojo {
@@ -26,13 +31,10 @@
   .stats{
     display: flex;
     flex-direction: row;
-    width: 80%;
     justify-content: space-between;
     margin: auto;
-    position: absolute;
-    bottom: 10vh;
-    left: 50%;
-    transform: translate(-50%, 0);
+    margin-top: 8vh;
+    
   }
 
   .statsBandeja{

@@ -1,7 +1,6 @@
 .homeContainer{
     background-color: #08223B;
     width: 100%;
-    position: fixed;
     z-index: 3;
 }
 
@@ -9,10 +8,13 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 15vh;
 }
 
 header img{
-    width: 500px;
+    height: 120px;
+    display: flex;
+    align-self: center;
 }
 
 .tabs{
@@ -30,7 +32,6 @@ header img{
     padding-top: 10px;
     padding-bottom: 10px;
     gap: 18px;
-    border: 2px solid white;
     width: 150px;
     cursor: pointer;
 }

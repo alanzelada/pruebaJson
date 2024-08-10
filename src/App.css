@@ -1,0 +1,9 @@
+.container{
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+#waves{
+    position: absolute;
+    z-index: -1;
+}

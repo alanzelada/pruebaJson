@@ -19,6 +19,7 @@ const Pastillas = () => {
     <div className='pastillasContainer'>
       <div className="pastillasRojas">
         <h1>PASTILLAS DEFECTUOSAS</h1>
+        <div className="scrollPastillas">
         {pastillasRojas.map(({ index }) => (
           <div key={index} className="detallePastilla">
             <img 
@@ -32,9 +33,11 @@ const Pastillas = () => {
             </div>
           </div>
         ))}
+        </div>
       </div>
       <div className="pastillasVerdes">
         <h1>PASTILLAS APROBADAS</h1>
+        <div className="scrollPastillas">
         {pastillasVerdes.map(({ index }) => (
           <div key={index} className="detallePastilla">
             <img 
@@ -48,6 +51,7 @@ const Pastillas = () => {
             </div>
           </div>
         ))}
+        </div>
       </div>
     </div>
   );
