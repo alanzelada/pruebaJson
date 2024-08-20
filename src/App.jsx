@@ -4,6 +4,7 @@ import Filas from './components/Filas/Filas';
 import Pastillas from './components/Pastillas/Pastillas';
 import Mapa from './components/Mapa/Mapa';
 import Info from './components/Info/Info.jsx'
+import Status from './components/Status/Status.jsx'
 import './App.css';
 
 const App = () => {
@@ -70,6 +71,7 @@ const App = () => {
 <path d="M424.818 39.1816C475.538 29.495 529.795 39.1343 574.214 65.4784C618.639 91.9224 652.82 134.995 668.625 184.154C681.872 225.549 682.164 269.808 682.21 313.28C682.256 356.752 682.348 401.022 695.102 442.547C707.855 484.071 735.407 523.425 775.905 539.281C836.813 563.255 905.43 529.079 970.41 537.087C1038.21 545.331 1096.11 605.044 1102.39 672.992C1108.68 740.94 1062.66 810.254 997.556 830.802C971.2 839.159 942.808 840.124 917.168 850.443C891.528 860.762 868.024 885.28 872.13 912.587" stroke="#0A213D" stroke-opacity="0.9" stroke-miterlimit="10"/>
 </svg>
 
+      <Status/>
       <Info/>
       <Header activeTab={activeTab} setActiveTab={setActiveTab} />
       {activeTab === 'Filas' && <Filas />}
