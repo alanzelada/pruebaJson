@@ -18,14 +18,15 @@
     width: 3.5em;
     height: 10em;
     box-sizing: border-box;
+    outline: 1px solid black;
 }
 
 .bordeRojo {
-    border: 3px solid #E04141; 
+    border: 3px solid #E04141;
   }
 
 .bordeVerde{
-    border: 3px solid #0E8553; 
+    border: none; 
   }
 
   .stats{
