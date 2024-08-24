@@ -35,13 +35,12 @@
     justify-content: space-between;
     margin: auto;
     margin-top: 8vh;
-    
   }
 
   .statsBandeja,  .statsLote{
     font-family: "Inter", sans-serif;
     width: 500px;
-    height: 300px;
+    height: max-content;
     background-color: #08223B;
     display: flex;
     flex-direction: column;
@@ -55,4 +54,38 @@
 
   .statsBandeja, .statsLote p{
     color: #FFFFFF;
+    font-weight: 400;
   }
+
+  .chart {
+    position: relative; /* Necesario para posicionar absolutamente el <p> */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+  }
+  
+  .chart p {
+    position: absolute; /* Permite que el <p> se superponga al gráfico */
+    margin: 0;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .bandeja1, .bandeja2, .bandeja3, .bandeja4{
+    width: 16ch;
+    text-align: center;
+  }
+
+  .bandejasArriba, .bandejasAbajo, .lotesArriba, .lotesAbajo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .bandejasArriba{
+    margin-bottom: 8px;
+  }
+
+
