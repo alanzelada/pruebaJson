@@ -1,7 +1,7 @@
 [
 {
     "bandeja": 10,
-    "fila": 5,
+    "fila": 7,
     "lote": 8404,
     "status": true,
     "resultados": [
@@ -81,6 +81,8 @@
             "C4 - Encaping"
         ]
     ],
-    "ruta_images": "C:/Users/Usuario/Desktop/Proyecto/imagenes/"
+    "ruta_images": "C:/Users/Usuario/Desktop/Proyecto/imagenes/",
+    "est_bandeja":[10,20,30,40],
+    "est_lote":[10,20,30,40]
 }
 ]
