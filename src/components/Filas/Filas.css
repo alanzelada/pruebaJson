@@ -72,7 +72,7 @@
     font-size: 1.5em;
   }
 
-  .bandeja1, .bandeja2, .bandeja3, .bandeja4{
+  .bandeja1, .bandeja2, .bandeja3, .bandeja4, .lote1, .lote2, .lote3, .lote4{
     width: 16ch;
     text-align: center;
   }
@@ -84,7 +84,7 @@
     justify-content: space-around;
   }
 
-  .bandejasArriba{
+  .bandejasArriba, .lotesArriba{
     margin-bottom: 8px;
   }
 
