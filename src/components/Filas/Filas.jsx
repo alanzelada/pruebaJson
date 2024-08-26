@@ -87,7 +87,8 @@ const Filas = () => {
                   fill="#8884d8"
                 >
                   {bandeja1.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} stroke="none" />
+
                   ))}
                 </Pie>
               </PieChart>
@@ -110,7 +111,8 @@ const Filas = () => {
                   fill="#8884d8"
                 >
                   {bandeja2.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} stroke="none" />
+
                   ))}
                 </Pie>
               </PieChart>
@@ -134,7 +136,8 @@ const Filas = () => {
                   fill="#8884d8"
                 >
                   {bandeja3.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} stroke="none" />
+
                   ))}
                 </Pie>
               </PieChart>
@@ -157,7 +160,8 @@ const Filas = () => {
                   fill="#8884d8"
                 >
                   {bandeja4.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} stroke="none" />
+
                   ))}
                 </Pie>
               </PieChart>
@@ -185,7 +189,8 @@ const Filas = () => {
                   fill="#8884d8"
                 >
                   {lote1.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} stroke="none" />
+
                   ))}
                 </Pie>
               </PieChart>
@@ -208,7 +213,8 @@ const Filas = () => {
                   fill="#8884d8"
                 >
                   {lote2.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} stroke="none" />
+
                   ))}
                 </Pie>
               </PieChart>
@@ -232,7 +238,8 @@ const Filas = () => {
                   fill="#8884d8"
                 >
                   {lote3.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} stroke="none" />
+
                   ))}
                 </Pie>
               </PieChart>
@@ -255,7 +262,8 @@ const Filas = () => {
                   fill="#8884d8"
                 >
                   {lote4.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} stroke="none" />
+
                   ))}
                 </Pie>
               </PieChart>
