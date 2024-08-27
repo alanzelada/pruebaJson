@@ -1,25 +1,30 @@
-// src/components/Mapa/Mapa.jsx
 import React from 'react';
 import '../Mapa/Mapa.css';
-import useResultadosData from '../../hooks/usePastillasData';
+import dataMapa from '../../data_mapa.json';  // Importar data_mapa.json
 
 const Mapa = () => {
-  const { resultados, error } = useResultadosData();
+  const resultadosMapa = dataMapa[0]?.array_resultados;
 
-  if (error) {
-    return <div>{error}</div>;
+  if (!Array.isArray(resultadosMapa)) {
+    return <div>Error al cargar los resultados para Mapa.jsx</div>;
   }
 
   return (
     <div className='mapaContainer'>
-      {resultados.map((resultado, index) => (
-        <div
-          key={index}
-          className={`cuadrado ${resultado ? 'verde' : 'rojo'}`}
-        ></div>
+      <div className="mapaScroll">
+      {resultadosMapa.map((fila, filaIndex) => (
+        <div key={filaIndex} className='filaContainer'>
+          {fila.map((resultado, index) => (
+            <div
+              key={index}
+              className={`cuadrado ${resultado ? 'verde' : 'rojo'}`}
+            ></div>
+          ))}
+        </div>
       ))}
+      </div>
     </div>
-    
   );
 };
+
 export default Mapa;

@@ -1,10 +1,16 @@
 .mapaContainer {
     display: flex;
     width: max-content;
-    flex-wrap: wrap;
     padding-top: 15vh;
     z-index: 2;
     margin: auto;
+  }
+
+  .mapaScroll{
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 35vh);
+    overflow-y: scroll;
   }
 
   .cuadrado {
