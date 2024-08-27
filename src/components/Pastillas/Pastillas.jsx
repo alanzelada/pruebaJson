@@ -35,11 +35,11 @@ const Pastillas = () => {
                 <h2>N°: {index + 1}</h2>
                 <div className="bottom">
                 <h2>DEFECTO{causa.length > 1 ? 'S' : ''}:</h2>
-                <ul>
+                
                   {causa.map((defecto, idx) => (
-                    <li key={idx}>{defecto}</li>
+                    <h3 key={idx}>{defecto}</h3>
                   ))}
-                </ul>
+                
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@ const Pastillas = () => {
               <img 
                 src={images[index]} 
                 alt={`pastilla-verde-${index}`} 
-                className='pastillas bordeVerde'
+                className='pastillas ladoVerde'
               />
               <div className="detalles">
                 <h2>N°: {index + 1}</h2>

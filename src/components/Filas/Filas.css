@@ -21,6 +21,7 @@
     outline: 1px solid black;
 }
 
+
 .bordeRojo {
     border: 3px solid #E04141;
   }
@@ -52,20 +53,22 @@
     font-weight: 500;
   }
 
+  
+
   .statsBandeja, .statsLote p{
     color: #FFFFFF;
     font-weight: 400;
   }
 
   .chart {
-    position: relative; /* Necesario para posicionar absolutamente el <p> */
+    position: relative; 
     display: flex;
-    justify-content: center; /* Centra el contenido horizontalmente */
-    align-items: center; /* Centra el contenido verticalmente */
+    justify-content: center; 
+    align-items: center; 
   }
   
   .chart p {
-    position: absolute; /* Permite que el <p> se superponga al gráfico */
+    position: absolute; 
     margin: 0;
     font-weight: 600;
     text-align: center;
@@ -88,4 +91,39 @@
     margin-bottom: 8px;
   }
 
+  .pArrays{
+    font-size: 20px;
+  }
 
+@media (max-width: 1700px) {
+
+  .stats{
+    margin-top: 4vh;
+  }
+
+    .statsBandeja,  .statsLote{
+      width: 450px;
+    }
+
+    .tituloBandeja, .tituloLote{
+      font-size: 20px;
+    }
+
+    .pastillasGroup .pastillas{
+      width: 3em;
+      height: 7.5em;
+  }
+
+  .chart {
+    height: 45px; 
+  }
+
+  .statsBandeja p, .statsLote p{
+    font-size: 12px;
+  }
+
+  .pArrays{
+    font-size: 1;
+  }
+
+  }

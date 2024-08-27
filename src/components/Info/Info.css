@@ -17,6 +17,12 @@
     font-family: "Inter", sans-serif;
 }
 
+@media (max-width: 1700px) {
+    .InfoContainer h2{
+        font-size: 24px;
+    }
+  }
+
 .InfoContainer h2 span{
     font-weight: 700;
 }

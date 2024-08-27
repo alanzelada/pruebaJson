@@ -26,3 +26,9 @@
     font-family: "Inter", sans-serif;
 }
 
+
+@media (max-width: 1700px) {
+    .statusH2{
+        font-size: 22px;
+    }
+  }
