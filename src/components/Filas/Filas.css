@@ -72,7 +72,7 @@
     margin: 0;
     font-weight: 600;
     text-align: center;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
   }
 
   .bandeja1, .bandeja2, .bandeja3, .bandeja4, .lote1, .lote2, .lote3, .lote4{
@@ -92,7 +92,7 @@
   }
 
   .pArrays{
-    font-size: 20px;
+    font-size: 1.5em;
   }
 
 @media (max-width: 1700px) {
@@ -118,12 +118,12 @@
     height: 50px; 
   }
 
-  .statsBandeja p, .statsLote p{
+  .bottomText, .bottomText{
     font-size: 12px;
   }
 
   .pArrays{
-    font-size: 1;
+    font-size: 1em;
   }
 
   }

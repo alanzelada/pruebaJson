@@ -41,15 +41,21 @@
     margin-bottom: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
 
-.detalles{
+.detalles {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 16px;
+    height: 100%; 
 }
+
+.detalles.detalleVerde {
+    margin-bottom: auto; 
+}
+
 
 .scrollPastillas{
     height: 100%;

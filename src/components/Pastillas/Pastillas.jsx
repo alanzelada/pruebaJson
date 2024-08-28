@@ -56,7 +56,7 @@ const Pastillas = () => {
                 alt={`pastilla-verde-${index}`} 
                 className='pastillas ladoVerde'
               />
-              <div className="detalles">
+              <div className="detalles detalleVerde">
                 <h2>N°: {index + 1}</h2>
                 {/* <h2>DEFECTO{causa.length > 1 ? 'S' : ''}:</h2>
                 <ul>
