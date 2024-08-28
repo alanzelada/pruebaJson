@@ -27,7 +27,7 @@
 }
 
 
-@media (max-width: 1700px) {
+@media (max-width: 1700px) and (max-height: 900px){
     .statusH2{
         font-size: 22px;
     }
