@@ -6,16 +6,11 @@
     margin: auto;
   }
 
-  .mapaScroll{
-    display: flex;
-    flex-direction: row;
-    height: calc(100vh - 35vh);
-    overflow-y: scroll;
-  }
+  
 
   .cuadrado {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     margin: 2px;
   }
   

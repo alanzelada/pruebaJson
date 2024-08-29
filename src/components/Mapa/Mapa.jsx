@@ -11,7 +11,7 @@ const Mapa = () => {
 
   return (
     <div className='mapaContainer'>
-      <div className="mapaScroll">
+
       {resultadosMapa.map((fila, filaIndex) => (
         <div key={filaIndex} className='filaContainer'>
           {fila.map((resultado, index) => (
@@ -22,7 +22,7 @@ const Mapa = () => {
           ))}
         </div>
       ))}
-      </div>
+
     </div>
   );
 };

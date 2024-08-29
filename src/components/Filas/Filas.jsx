@@ -134,7 +134,7 @@ const Filas = () => {
                 </ResponsiveContainer>
                 <p className="pArrays">{est_bandeja[1]}</p>
               </div>
-              <p className='bottomText'>DESP-LATERAL</p>
+              <p className='bottomText'>DESPRENDIMIENTO</p>
             </div>
           </div>
 
@@ -158,7 +158,7 @@ const Filas = () => {
                 </ResponsiveContainer>
                 <p className="pArrays">{est_bandeja[2]}</p>
               </div>
-              <p className='bottomText'>DESP-SUPERFICIAL</p>
+              <p className='bottomText'>PASTILLAS OK</p>
             </div>
 
             <div className="bandeja4">
@@ -180,7 +180,7 @@ const Filas = () => {
                 </ResponsiveContainer>
                 <p className="pArrays">{est_bandeja[3]}</p>
               </div>
-              <p className='bottomText'>DEFECTUOSAS</p>
+              <p className='bottomText'>PASTILLAS NOK</p>
             </div>
           </div>
         </div>
@@ -229,7 +229,7 @@ const Filas = () => {
                 </ResponsiveContainer>
                 <p className="pArrays">{est_lote[1]}</p>
               </div>
-              <p className='bottomText'>DESP-LATERAL</p>
+              <p className='bottomText'>DESPRENDIMIENTO</p>
             </div>
           </div>
 
@@ -253,7 +253,7 @@ const Filas = () => {
                 </ResponsiveContainer>
                 <p className="pArrays">{est_lote[2]}</p>
               </div>
-              <p className='bottomText'>DESP-SUPERFICIAL</p>
+              <p className='bottomText'>PASTILLAS OK</p>
             </div>
 
             <div className="lote4">
@@ -275,7 +275,7 @@ const Filas = () => {
                 </ResponsiveContainer>
                 <p className="pArrays">{est_lote[3]}</p>
               </div>
-              <p className='bottomText'>DEFECTUOSAS</p>
+              <p className='bottomText'>PASTILLAS NOK</p>
             </div>
           </div>
         </div>
