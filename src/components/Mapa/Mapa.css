@@ -6,7 +6,12 @@
     margin: auto;
   }
 
-  
+  /* .mapaScroll{
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 35vh);
+    overflow-y: scroll;
+  } */
 
   .cuadrado {
     width: 25px;
@@ -21,4 +26,11 @@
   .rojo {
     background-color: #E04141;
   }
+
+  @media (max-width: 1700px ) and (max-height: 900px){
+    .cuadrado{
+      width: 20px;
+    height: 20px;
+    }
+}
   
